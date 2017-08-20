@@ -2,6 +2,8 @@
 
 > A simple boilerplate of creating a `.onion` website for Tor using Flask and Python.
 
+![Screenshot](https://github.com/satwikkansal/tor-hidden-service-python/blob/master/screenshots/front.png)
+
 ## Instructions
 
 - Download Tor browser from the official site ([link](https://www.torproject.org/download/download))
