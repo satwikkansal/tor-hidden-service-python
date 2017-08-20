@@ -1,0 +1,25 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+	<br>
+
+	<center>
+	<form action="/submit" id="textform" method="post">
+	    <textarea name="text" rows="4" cols="50" placeholder="Just write whatever you want to..."></textarea>
+	    <br>
+	    <input type="text" name="nick" placeholder="Your nick (optional)">
+	    <input type="submit" value="Post">
+	</form>
+	</center>
+
+	<br>
+
+	<div style="margin-left: 20px;">
+    {% for post in posts %}
+    <p>
+      At <i>[{{ post.time }}]</i>, <u>{{ post.author.nickname }}</u> says: <b>{{ post.body }}</b>
+    </p>
+    {% endfor %}
+    </div>
+{% endblock %}
