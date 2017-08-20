@@ -22,11 +22,11 @@ def submit_textarea():
     if not nickname:
         nickname = "Anon" + str(random.randint(100000, 999999))
 
-    posts.insert(0,
-                 {
-                     'author': {'nickname': nickname},
-                     'body': post_content,
-                     'time': datetime.datetime.now().strftime('%H:%M:%S')
-                 })
+    posts.append(
+        {
+          'author': {'nickname': nickname},
+          'body': post_content,
+          'time': datetime.datetime.now().strftime('%H:%M:%S')
+        })
 
     return redirect('/index')
