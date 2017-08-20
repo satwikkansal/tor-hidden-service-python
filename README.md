@@ -41,4 +41,4 @@ All patches welcome!
 
 ## License
 
-MIT License - see the [LICENSE](https://github.com/satwikkansal/readme_styles/blob/master/LICENSE) file for details.
+MIT License - see the [LICENSE](https://github.com/satwikkansal/tor-hidden-service-python/blob/master/LICENSE) file for details.
