@@ -2,6 +2,12 @@
 
 > A simple boilerplate of creating a `.onion` website for Tor using Flask and Python.
 
+## Table of Contents
+
+- [Instructions](#instructions)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Instructions
 
